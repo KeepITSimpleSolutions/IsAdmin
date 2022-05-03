@@ -7,6 +7,20 @@ It also lists all information on TOKEN PRIVILEGES.
 [0] = Disabled
 [3] = Enabled
 
+<style type="text/css">
+table th{
+width: 200px;
+text-align: center;
+}
+td.text{
+text-align: justify;
+padding: 5px;
+}
+table table, table table td{
+border: 0px solid #000;
+}
+</style>
+
 <table>
   <tr>
     <td>
