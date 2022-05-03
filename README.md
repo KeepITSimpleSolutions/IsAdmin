@@ -5,7 +5,6 @@ IsAdmin is a small commandline software application whose purpose is to help you
 It also lists all information on TOKEN PRIVILEGES.
 
 [0] = Disabled
-
 [3] = Enabled
 
 <table>
