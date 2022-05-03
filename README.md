@@ -4,4 +4,9 @@ IsAdmin is a small commandline software application whose purpose is to help you
 
 It also lists all information on TOKEN PRIVILEGES.
 
+[0] = Disabled
+[3] = Enabled
+
 <img width="275" alt="IsAdmin_TRUE" src="https://user-images.githubusercontent.com/13180229/166471950-a85440bb-b25b-4e32-afa2-2f5f84fd8dcd.PNG">
+
+<img width="207" alt="IsAdmin_FALSE" src="https://user-images.githubusercontent.com/13180229/166472546-ee701ef4-6069-4559-ad19-94c1f10c256e.PNG">
