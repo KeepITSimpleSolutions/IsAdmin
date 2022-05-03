@@ -57,17 +57,15 @@ namespace MarshallingExample
             var identity = System.Security.Principal.WindowsIdentity.GetCurrent();
             var principal = new System.Security.Principal.WindowsPrincipal(identity);
             Console.Write("IsAdmin = ");
-
-
-            if (principal.IsInRole(System.Security.Principal.WindowsBuiltInRole.Administrator) == true)
+            
+            if (principal.IsInRole(System.Security.Principal.WindowsBuiltInRole.Administrator))
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.Write(principal.IsInRole(System.Security.Principal.WindowsBuiltInRole.Administrator));
                 Console.WriteLine();
                 Console.ResetColor();
             }
-
-            if (principal.IsInRole(System.Security.Principal.WindowsBuiltInRole.Administrator) == false)
+            else
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.Write(principal.IsInRole(System.Security.Principal.WindowsBuiltInRole.Administrator));
